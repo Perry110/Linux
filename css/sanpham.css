@@ -142,3 +142,8 @@ button:focus, input:focus, textarea:focus {
     left: -50px;
 }
 
+.card_box img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* Giữ tỉ lệ mà không làm biến dạng ảnh */
+}

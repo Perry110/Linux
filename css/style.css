@@ -49,12 +49,13 @@
    border-radius: 10%;
 }
 #page-header {
-    width: 100%;
-    float: left;
-    background-image: url(../pic/Banner-Web-03-scaled.jpg);
-    height: 60vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
+   width: 100%;
+   float: left;
+   background-image: url(../pic/Banner-Web-03-scaled.jpg);
+   height: 60vh;
+   background-size: cover; /* Đặt là 'cover' để ảnh phủ đầy khung mà không bị biến dạng */
+   background-position: center; /* Đặt ảnh ở giữa để cân đối */
+   background-repeat: no-repeat;
 }
 .text{
     display: flex;
